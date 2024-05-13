@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#200808",
+                        secondary: "#432813",
+                        light: "#fbf5ea",
+                    },
+                    spacing: {
+                        "50px": "50px",
+                    },
+                    backgroundImage: {
+                        banner: "url('image/lazzaban.png')",
+                        bann: "url('/image/bann.jpg')",
+                        pink: "url('/image/pink.jpg')",
+                        primg: "url('image/primg.jpg')",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-light">
+    <!-- <header class="bg-primary">
+        <div class="container max-w-7xl mx-auto  md:px-10 px-4  md:py-3 py-2 flex justify-between items-center">
+            <a href="#"><img src="image/logo.png" alt="logo" class="md:h-14 h-10 md:auto w-auto"></a>
+            <nav class="text-light font-sans text-sm md:text-base">
+                <a class="px-2" href="#home">Home</a>
+                <a class="px-2" href="#about">About</a>
+                <a class="px-2" href="#products">Products</a>
+                <a class="px-2" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header> -->
+
+    <header class="bg-primary">
+        <div class="container max-w-7xl mx-auto md:px-10 px-4 md:py-3 py-2 flex flex-wrap justify-between items-center">
+            <a href="#"><img src="image/logo.png" alt="logo" class="md:h-14 h-10 md:auto w-auto"></a>
+            <nav class="text-light font-sans text-sm md:text-base mt-4 md:mt-0">
+                <a class="px-2" href="#home">Home</a>
+                <a class="px-2" href="#about">About</a>
+                <a class="px-2" href="#products">Products</a>
+                <a class="px-2" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+
+   
+    
+    
+    
+
+
+
+
+
+  <section class="bg-banner bg-center bg-no-repeat bg-cover md:h-lvh h-auto" id="home">
+    <div class="container max-w-7xl  mx-auto 2xl:px-0 md:px-10 px-1.5 md:py-40 py-20 pl-40 flex justify-between md:flex-nowrap	flex-wrap md:text-left text-center">
+      <div class="md:w-8/12 w-full"></div>
+      <div class="md:w-8/12 w-96">
+        <h1 class="font-serif text-light pt-0 pl-5 md:text-8xl text-lg font-bold">LAZZA ICECREAM</h1>
+        <h2 class="font-serif text-light pl-5 font-sans md:text-3xl text-sm">Treasure Your Feelings</h2>
+        <!-- <p class="font-normal pb-4 text-light pt-30 pl-96 md:px-0 px-10 font-sans md:text-3xl text-base">Treasure your feelings</p> -->
+      </div>
+    </div>
+  </section>
+     <!-- banner -->
+  
+    <!-- about -->
+    <section class="bg-light" id="about">
+        <div class="container max-w-7xl mx-auto px-4 md:px-10 py-6 md:py-10">
+            <h2 class="text-center font-bold md:text-3xl text-lg text-primary font-sans pb-4">ABOUT US</h2>
+            <div>
+                <div class="flex justify-center">
+                    <img src="image/1.png" alt="about" class="md:h-56 h-48 pb-4">
+                </div>
+                <p class="px-2 md:px-4 py-2 text-center pb-4 text-xs">The company was founded in 1972 by Mr. M C John a retired senior bureaucrat in the Kerala government. It is currently led by Mr. Simon John and his team of eminent directors. The company is a pioneer in the ice cream industry in South India. The first factory was started in Kochi and today has over 10 factories and other ancillary units spread across South India.</p>
+            </div>
+            <div class="container grid grid-cols-1 md:grid-cols-3 gap-4 pb-2">
+                <div class="bg-secondary">
+                    <div class="flex justify-center">
+                        <img src="image/ice-cream (2).png" alt="straw" class="h-16 pt-3 pb-3">
+                    </div>
+                    <h3 class="text-center font-bold text-light pt-3 text-sm ">OUR VISION</h3>
+                    <p class="text-center px-4 text-light pb-5 text-sm">To make enjoyable ice cream experiences affordable and available to all.</p>
+                </div>
+
+                <div class="bg-secondary">
+                    <div class="flex justify-center">
+                        <img src="image/ice-cream.png" alt="straw" class="h-16 pt-3 pb-3">
+                    </div>
+                    <h3 class="text-center font-bold text-light text-sm">OUR MISSION</h3>
+                    <p class="text-center px-4 pb-5 text-light text-sm">To manufacture international quality ice cream products at best-in-class pricing and make them available everywhere through a well-placed cold chain network.</p>
+                </div>
+
+                <div class="bg-secondary">
+                    <div class="flex justify-center">
+                        <img src="image/icecream3.png" alt="straw" class="h-16 pt-3 pb-3">
+                    </div>
+                    <h3 class="text-center font-bold text-light text-sm">OUR VALUES</h3>
+                    <p class="text-center px-4  pb-5 text-light text-sm">We focus on creating value for the consumers who can see and choose what is really best for them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products -->
+    <section class="bg-primg bg-cover bg-center bg-no-repeat bg-fixed" id="products">
+        <div class="container max-w-7xl mx-auto px-4 md:px-10 py-6 md:py-10">
+            <h2 class="text-primary text-center font-bold text-lg font-sans pb-4 md:text-3xl">WIDE RANGE OF OUR PRODUCTS </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
+                <div><img class="md:h-auto w-auto pb-1 hover:scale-125 max-w-xs" src="image/sugarfreeproduct.png" alt="sugar">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">SUGAR FREE</h3>
+                </div>
+                <div><img class="h-auto w-full pb-1 hover:scale-125 max-w-xs" src="image/basicproduct.png" alt="basic">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">BASIC SERIES</h3>
+                </div>
+                <div><img class="h-auto w-full pb-1 hover:scale-125 max-w-xs" src="image/indulgence (3).png" alt="indulgence">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">INDULGENCE SERIES</h3>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
+                <div><img class="h-auto w-full pb-1 hover:scale-125 max-w-xs" src="image/premiumproduct.png" alt="premium">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">PREMIUM SERIES</h3>
+                </div>
+                <div><img class="h-auto w-full pb-1 hover:scale-125 max-w-xs" src="image/ethnicproduct.png" alt="ethnic">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">ETHNIC SERIES</h3>
+                </div>
+                <div><img class="h-auto w-full pb-1 hover:scale-125 max-w-xs" src="image/naturalproduct.png" alt="natural">
+                    <h3 class="text-center text-primary font-bold text-sm font-sans">NATURAL SERIES</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <!-- <section class="bg-light bg-cover bg-center bg-no-repeat bg-fixed">
+        <div class="container max-w-7xl mx-auto px-4 md:px-10 py-6 md:py-10">
+            <div class="text-center font-bold text-lg text-primary font-sans pb-4">
+                <h2>CONTACT US</h2>
+            </div>
+            <form>
+                <div class="px-2 md:px-96 pb-2">
+                    <input class="input border-solid border-2 border-primary py-3 px-8 w-full" type="text" name="text" placeholder="First Name" />
+                    <input class="input border-solid border-2 border-primary py-3 px-8 w-full mt-2" type="text" name="text" placeholder="Last Name" />
+                </div>
+
+                <div class="px-2 md:px-96 pb-2">
+                    <input class="input border-solid border-2 border-primary py-3 px-8 w-full" type="text" name="text" placeholder="Mobile Number" />
+                    <input class="input border-solid border-2 border-primary py-3 px-8 w-full mt-2" type="text" name="text" placeholder="Mail id" />
+                </div>
+                <div class="px-2 md:px-96 pb-2">
+                    <textarea class="border-solid border-2 border-primary py-3 pl-2.5 w-full" name="comment" id="cmt" cols="64" rows="9" placeholder="Your Comment Here"></textarea>
+                </div>
+                <div class="px-2 md:px-96 pb-2 text-center">
+                    <input class="btn border-solid border-2 border-primary py-3 px-8 w-full" type="button" value="Submit" />
+                </div>
+            </form>
+
+
+        </div>
+    </section> -->
+    
+
+<!-- contact-->
+<section class="bg-light bg-cover bg-center bg-no-repeat bg-fixed" id="contact">
+    <div class="text-center font-bold text-lg text-primary font-sans pb-7 pt 4 md:text-3xl">
+        <h2 class="pt-4">CONTACT US</h2>
+    </div>
+    <div class="container mx-auto px-4 md:px-10 py-6 md:py-10 flex flex-row items-center  ">
+        <div class="w-full md:w-1/2 pr-10 hidden sm:block">
+            <img src="image/contimg.jpg" alt="Your Image" class="md:w-3/4 h-auto mx-auto">
+        </div>
+        <div class="w-full md:w-1/2">
+            
+            <form class="w-full max-w-md mx-auto">
+                <div class="mb-4">
+                    <input class="input border-solid border-2 border-primary py-3 px-4 w-full" type="text" name="text" placeholder="First Name" />
+                </div> 
+                <div class="mb-4">
+                    <input class="input border-solid border-2 border-primary py-3 px-4 w-full" type="text" name="text" placeholder="Last Name" />
+                </div>
+                <div class="mb-4">
+                    <input class="input border-solid border-2 border-primary py-3 px-4 w-full" type="text" name="text" placeholder="Mobile Number" />
+                </div>
+                <div class="mb-4">
+                    <input class="input border-solid border-2 border-primary py-3 px-4 w-full" type="text" name="text" placeholder="Mail id" />
+                </div>
+                <div class="mb-4">
+                    <textarea class="border-solid border-2 border-primary py-3 pl-2.5 w-full" name="comment" id="cmt" cols="30" rows="6" placeholder="Your Comment Here"></textarea>
+                </div>
+                <div class="mb-4">
+                    <input class="btn border-solid border-2 border-primary py-3 px-4 w-full" type="button" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+    
+    <!-- footer -->
+    <footer class="bg-primary text-light">
+        <div class="container max-w-7xl mx-auto px-4 md:px-10 py-6 md:py-10 grid grid-cols-2 md:grid-cols-4 justify-items-center">
+            <div>
+                <img class="h-auto w-40" src="image/footer_logo.png" alt="fstlogo">
+            </div>
+            <div>
+                <h2>QUICK LINKS</h2>
+               <a href="#home"><h4>Home</h4></a>
+                <a href="#about"><h4 >About</h4></a>
+                <a href="#products"><h4>Products</h4></a>
+                <a href="#contact"><h4>Contact Us</h4></a>
+            </div>
+            <div>
+                <h2>CONTACT US</h2>
+                <h4>9946037777</h4>
+                <h4>support@lazza.co.in</h4>
+            </div>
+            <div>
+                <img class="h-auto w-40" src="image/simons.png" alt="footer">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="py-3 text-center">© Lazza Ice Creams - 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
